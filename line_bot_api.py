@@ -17,4 +17,3 @@ load_dotenv()
 line_bot_api = LineBotApi(os.getenv("LINE_BOT_API_KEY"))
 handler = WebhookHandler(os.getenv("CHANNEL_SECRET"))
 
-print(line_bot_api)
