@@ -1,11 +1,9 @@
-from line_bot_api import *
-
-from sigfox_api import *
-
-from models.users import User
-
-from datetime import datetime
 import pytz
+
+from line_bot_api import *
+from sigfox_api import *
+from models.users import User
+from datetime import datetime
 
 
 def event_status(event):

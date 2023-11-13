@@ -1,6 +1,5 @@
 from line_bot_api import *
 from models.users import User
-
 from database import db_session
 
 

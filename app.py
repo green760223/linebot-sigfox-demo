@@ -1,12 +1,10 @@
+import pytz
+
 from line_bot_api import *
 from flask import Flask, request, abort
-
-import pytz
 from datetime import datetime
-
 from database import db_session, init_db
 from models.users import User
-
 from events.event_location import event_location
 from events.event_messages import event_messages
 from events.event_register import event_register, device_id_input_event
